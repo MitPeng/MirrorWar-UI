@@ -1,0 +1,9 @@
+<root>
+        <scripts>
+                <include src="s2r://panorama/scripts/custom_game/custom_ui_manifest.js" />
+        </scripts>
+        <Panel>
+                <CustomUIElement type="GameInfo" layoutfile="file://{resources}/layout/custom_game/game_info.xml" />
+                <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/mirror_war_hud.xml" />
+        </Panel>
+</root>

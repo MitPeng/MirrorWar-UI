@@ -1,0 +1,43 @@
+#btn{
+    color: #066EFE;
+    border: 2px solid #ECC700;
+}
+
+#btn:hover{
+    color: #ECC700;
+    border: 2px solid #066EFE;
+}
+
+.btnClick{
+    animation-name:btnClickAnim;
+    animation-duration:0.5s;
+}
+
+#label{
+    margin-top: 80px;
+}
+
+#image{
+    margin-top: 125px;
+    width: 200px;
+    height: 150px;
+}
+
+#entry{
+    margin-top: 290px;
+}
+
+#drop{
+    margin-top: 320px;
+}
+
+#toggleBtn_1{
+    margin-top: 440px;
+}
+#toggleBtn_2{
+    margin-top: 470px;
+}
+
+#RadioBtn{
+    margin-top: 500px;
+}

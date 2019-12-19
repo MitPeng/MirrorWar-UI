@@ -1,0 +1,44 @@
+<root>
+        <styles>
+                <!-- 导入官方css -->
+                <include src="s2r://panorama/styles/dotastyles.vcss_c"/>
+                <!-- file://{resources}/就是指你的地图目录下的panorama -->
+                <include src="file://{resources}/styles/custom_game/game_info.css"/>
+        </styles>
+
+        <!-- 使用脚本 -->
+        <script>
+                function onBtnClick()
+                {
+                        $("#btn").SetHasClass("btnClick",false)
+                        $("#btn").SetHasClass("btnClick",true)
+                        $.Msg("my button");
+                }
+        </script>
+
+        <Panel>
+                <!-- 按钮，按钮效果还要自己实现，汗 -->
+                <Button id="btn"><Label text="我是一个按钮"/></Button>
+
+                <!-- 标签 -->
+                <Label id="label" text="我是一个标签"/>
+
+                <!-- 图片 -->
+                <Image id="image" src="file://{images}/custom_game/mirror_war_logo.png" />
+
+                <!-- 文本框 -->
+                <TextEntry id="entry" maxchars="100" placeholder="输入内容" />
+
+                <DropDown id="drop">
+                  <Label text="下拉列表项1" id="entry1"/>
+                  <Label text="下拉列表项2" id="entry2"/>
+                  <Label text="下拉列表项3" id="entry3"/>
+                  <Label text="下拉列表项4" id="entry4"/>
+                </DropDown>
+
+                <!-- 多选按钮 -->
+                <ToggleButton id="toggleBtn_1" checked="true" text="Checkbox 1" />
+                <ToggleButton id="toggleBtn_2" checked="true" text="Checkbox 2" />
+
+        </Panel>
+</root>
