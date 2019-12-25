@@ -1,13 +1,14 @@
 <root>
-    <!--<styles>
-        <include src="file://{resources}/styles/mirror_war_hud.css" />
+    <styles>
+        <include src="file://{resources}/styles/custom_game/mirror_war_hud.css" />
     </styles>
     <scripts>
-        <include src="file://{resources}/scripts/mirror_war_hud.js" />
-    </scripts>-->
+        <include src="file://{resources}/scripts/custom_game/mirror_war_hud.js" />
+    </scripts>
     <!--<snippets>-->
     <!--</snippets>-->
     <Panel hittest="false">
-        <Label hittest="false" id="hero_energy" text="test" />
+        <Label hittest="false" id="hero_name" text="name" />
+        <Label hittest="false" id="hero_energy" text="energy" />
     </Panel>
 </root>

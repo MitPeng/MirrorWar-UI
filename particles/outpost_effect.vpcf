@@ -1,0 +1,47 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf25:version{7bca2d8d-3a14-4a76-bd41-f483fdf78d50} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_Children = 
+	[
+		{
+			m_ChildRef = resource:"particles/econ/items/monkey_king/arcana/fire/mk_arcana_spring_fire_base_ground.vpcf"
+		},
+		{
+			m_ChildRef = resource:"particles/econ/items/monkey_king/arcana/fire/mk_arcana_spring_fire_base_energya.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/econ/items/monkey_king/arcana/fire/mk_arcana_spring_fire_base_energyb.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/econ/items/monkey_king/arcana/fire/mk_arcana_spring_fire_base_sphere.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/econ/items/monkey_king/arcana/fire/mk_arcana_spring_fire_base_groundcaustic.vpcf"
+			m_bDisableChild = true
+		},
+		{
+			m_ChildRef = resource:"particles/econ/items/monkey_king/arcana/fire/mk_arcana_spring_fire_base_expanding.vpcf"
+			m_bDisableChild = true
+		},
+	]
+	m_nMaxParticles = 1
+	m_nBehaviorVersion = 10
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ null, null, null ]
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+}
