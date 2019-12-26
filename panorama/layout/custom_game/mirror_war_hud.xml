@@ -9,6 +9,6 @@
     <!--</snippets>-->
     <Panel hittest="false">
         <Label hittest="false" id="hero_name" text="name" />
-        <Label hittest="false" id="hero_energy" text="energy" />
+        <Label hittest="false" id="hero_score" text="score" />
     </Panel>
 </root>

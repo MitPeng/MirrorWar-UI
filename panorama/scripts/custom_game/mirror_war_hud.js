@@ -1,8 +1,8 @@
 "use strict";
 function ShowScore(event) {
-    $.Msg("Hero : ", event.hero_name, " energy : ", event.hero_energy);
+    $.Msg("Hero : ", event.hero_name, " score : ", event.hero_score);
     $("#hero_name").text = event.hero_name;
-    $("#hero_energy").text = event.hero_energy;
+    $("#hero_score").text = event.hero_score;
 }
 
 (function () {
