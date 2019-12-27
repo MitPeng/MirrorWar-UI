@@ -10,5 +10,11 @@
     <Panel hittest="false">
         <Label hittest="false" id="hero_name" text="name" />
         <Label hittest="false" id="hero_score" text="score" />
+
+        <Label hittest="false" id="good_team" text="good_team" />
+        <Label hittest="false" id="good_score" text="good_score" />
+
+        <Label hittest="false" id="bad_team" text="bad_team" />
+        <Label hittest="false" id="bad_score" text="bad_score" />
     </Panel>
 </root>
