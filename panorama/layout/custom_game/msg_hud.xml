@@ -1,0 +1,15 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/msg_hud.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/msg_hud.js" />
+    </scripts>
+    <script>
+    </script>
+    <Panel class="HudRoot" hittest="false" hittestchildren="false">
+        <Panel class="BottomMsgPanel" id="bottom_msg_panel">
+            <Label id="bottom_msg_label" text="" />
+        </Panel>
+    </Panel>
+</root>
