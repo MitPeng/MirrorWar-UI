@@ -1,0 +1,65 @@
+#hero_score{
+    margin-left: 150px;
+}
+
+#good_team{
+    margin-left: 750px;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+#good_score{
+    margin-top: 0px;
+    margin-right: 10%;
+    horizontal-align: right;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    color: gradient( linear, 0% 0%, 0% 100%, from( #c88423 ), color-stop( 0.25, #c88423 ), color-stop( 0.5, #fffb84 ), color-stop( 0.75, #c88423 ), to( #9a6717 ) );
+    text-shadow: 2px 2px 2px #757168;
+    text-overflow: clip;
+}
+
+#bad_team{
+    margin-left: 890px;
+    margin-top: 60px;
+    font-size: 15px;
+}
+
+#bad_score{
+    margin-top: 0px;
+    margin-left: 10%;
+    horizontal-align: left;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    color: gradient( linear, 0% 0%, 0% 100%, from( #c88423 ), color-stop( 0.25, #c88423 ), color-stop( 0.5, #fffb84 ), color-stop( 0.75, #c88423 ), to( #9a6717 ) );
+    text-shadow: 2px 2px 2px #757168;
+    text-overflow: clip;
+}
+
+.score_panel {
+	width: 80%;
+    height: 10%;
+    horizontal-align: center;
+    vertical-align: top;
+    border: 1px solid red;
+}
+
+#good_panel {
+	width: 50%;
+    height: 50%;
+    horizontal-align: left;
+    vertical-align: bottom;
+    border: 1px solid red;
+}
+
+#bad_panel {
+	width: 50%;
+    height: 50%;
+    horizontal-align: right;
+    vertical-align: bottom;
+    border: 1px solid red;
+}

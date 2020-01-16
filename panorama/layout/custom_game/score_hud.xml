@@ -1,0 +1,23 @@
+<root>
+    <styles>
+        <include src="file://{resources}/styles/custom_game/score_hud.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/score_hud.js" />
+    </scripts>
+    <!--<snippets>-->
+    <!--</snippets>-->
+    <Panel class="score_panel" hittest="false">
+        <Label hittest="false" id="hero_name" text="name" />
+        <Label hittest="false" id="hero_score" text="score" />
+        <Panel id="good_panel" class="PanelClass">
+            <Label hittest="false" id="good_team" text="good_team" />
+            <Label hittest="false" id="good_score" text="0" />
+        </Panel>
+        <Panel id="bad_panel" class="PanelClass">
+            <Label hittest="false" id="bad_team" text="bad_team" />
+            <Label hittest="false" id="bad_score" text="0" />
+        </Panel>
+
+    </Panel>
+</root>

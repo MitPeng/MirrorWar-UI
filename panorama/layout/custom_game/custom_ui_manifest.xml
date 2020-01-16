@@ -5,6 +5,6 @@
         <Panel>
                 <CustomUIElement type="GameInfo" layoutfile="file://{resources}/layout/custom_game/game_info.xml" />
                 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/msg_hud.xml" />
-                <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/mirror_war_hud.xml" />
+                <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/score_hud.xml" />
         </Panel>
 </root>
