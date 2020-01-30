@@ -3,7 +3,7 @@
                 <include src="s2r://panorama/scripts/custom_game/custom_ui_manifest.js" />
         </scripts>
         <Panel>
-                <CustomUIElement type="GameInfo" layoutfile="file://{resources}/layout/custom_game/game_info.xml" />
+                <!-- <CustomUIElement type="GameInfo" layoutfile="file://{resources}/layout/custom_game/game_info.xml" /> -->
                 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/msg_hud.xml" />
                 <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/score_hud.xml" />
         </Panel>

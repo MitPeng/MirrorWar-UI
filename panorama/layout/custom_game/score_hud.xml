@@ -8,8 +8,8 @@
     <!--<snippets>-->
     <!--</snippets>-->
     <Panel class="score_panel" hittest="false">
-        <Label hittest="false" id="hero_name" text="name" />
-        <Label hittest="false" id="hero_score" text="score" />
+        <!-- <Label hittest="false" id="hero_name" text="name" />
+        <Label hittest="false" id="hero_score" text="score" /> -->
         <Panel id="good_panel" class="PanelClass">
             <Label hittest="false" id="good_team" text="good_team" />
             <Label hittest="false" id="good_score" text="0" />
